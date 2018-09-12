@@ -18,8 +18,8 @@ public class TestMainPage extends BaseTest {
     @Test(description = "65")
 //id тесткейсов
     void testSearch() {
-    mainPageSteps.search("Cool dress!!!!!");
-    assertEquals("bla", "gla");
+    mainPageSteps.search("Cool dress!!!!!"); //skdfjhd
+     assertEquals("bla", "gla");
 
     }
 
